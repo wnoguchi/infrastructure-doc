@@ -596,8 +596,25 @@ reload
 - 初期化
 
 ```
-clear config all
+miyako_sw#write erase
+Erasing the nvram filesystem will remove all files! Continue? [confirm]
+[OK]
+Erase of nvram: complete
+miyako_sw#reload
+
+System configuration has been modified. Save? [yes/no]: yes
+Building configuration...
+[OK]
+Proceed with reload? [confirm]
 ```
+
+工場出荷時に初期化されないじゃんって思ったら、
+
+```
+System configuration has been modified. Save? [yes/no]: no
+```
+
+って答えないといけないらしい。
 
 `show clock`を使うと時間を表示できるらしい。
 
