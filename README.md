@@ -1,4 +1,4 @@
-infrastructure-doc
-==================
+Infrastructure Documents
+==========================
 
-Infrastructure Documentations.
+インフラ関係のドキュメントを格納するリポジトリ。
