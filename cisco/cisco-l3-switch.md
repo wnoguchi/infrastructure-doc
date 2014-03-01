@@ -127,3 +127,9 @@ Compiled Fri 15-Feb-02 10:50 by antonino
 % Please answer 'yes' or 'no'.
 Would you like to enter the initial configuration dialog? [yes/no]: 
 ```
+
+References
+------------
+
+- [Catalystスイッチとは](http://www.infraexpert.com/study/study18.html)
+- [Catalystスイッチをはじめから - スイッチの基本設定](http://www.infraexpert.com/study/catalyst6.html)
